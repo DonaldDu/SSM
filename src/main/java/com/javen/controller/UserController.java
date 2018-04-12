@@ -109,7 +109,7 @@ public class UserController {
         return new ResponseEntity<User>(user, HttpStatus.OK);
     }
 
-    //文件上传、
+    //
     @RequestMapping(value = "/upload")
     public String showUploadPage() {
         return "user_admin/file";
